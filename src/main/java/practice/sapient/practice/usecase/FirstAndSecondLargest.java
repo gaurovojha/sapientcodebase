@@ -1,4 +1,4 @@
-package com.sapient.usecase;
+package practice.sapient.practice.usecase;
 
 public class FirstAndSecondLargest {
 

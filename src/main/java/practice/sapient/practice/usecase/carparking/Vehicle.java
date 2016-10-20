@@ -1,4 +1,4 @@
-package practice.sapient.usecase.carparking;
+package practice.sapient.practice.usecase.carparking;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.sapient.usecase.file;
+package practice.sapient.practice.usecase.file;
 
 public class EfficientFileHandling {
 

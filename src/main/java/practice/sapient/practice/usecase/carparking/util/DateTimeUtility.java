@@ -1,4 +1,4 @@
-package com.sapient.usecase.carparking.util;
+package practice.sapient.practice.usecase.carparking.util;
 
 import java.util.Date;
 
