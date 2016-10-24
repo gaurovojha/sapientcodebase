@@ -3,9 +3,9 @@ package practice.sapient.practice.usecase.carparking.service;
 import java.util.Calendar;
 import java.util.Map;
 
-import practice.sapient.usecase.carparking.TimeTrack;
-import practice.sapient.usecase.carparking.Vehicle;
-import practice.sapient.usecase.carparking.util.DateTimeUtility;
+import practice.sapient.practice.usecase.carparking.TimeTrack;
+import practice.sapient.practice.usecase.carparking.Vehicle;
+import practice.sapient.practice.usecase.carparking.util.DateTimeUtility;
 
 public class ChargeVehicleService {
 
@@ -22,6 +22,5 @@ public class ChargeVehicleService {
 			
 		}
 		return totalCharge;
-	}
-	
+	}	
 }

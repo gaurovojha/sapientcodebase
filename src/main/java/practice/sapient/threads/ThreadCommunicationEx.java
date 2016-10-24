@@ -1,4 +1,4 @@
-package threads;
+package practice.sapient.threads;
 
 public class ThreadCommunicationEx {
 	//static int sum = 0;

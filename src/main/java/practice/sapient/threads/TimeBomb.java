@@ -1,4 +1,4 @@
-package threads;
+package practice.sapient.threads;
 
 class TimeBomb extends Thread {
 

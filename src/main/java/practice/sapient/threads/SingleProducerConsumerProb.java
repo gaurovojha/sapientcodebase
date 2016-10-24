@@ -1,4 +1,4 @@
-package threads;
+package practice.sapient.threads;
 
 import java.util.Queue;
 

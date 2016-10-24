@@ -1,9 +1,4 @@
-package threads;
-
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+package practice.sapient.threads;
 
 public class ThreadCommunicationAlternateNoEx {
 

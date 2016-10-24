@@ -1,10 +1,10 @@
-package threads;
+package practice.sapient.threads;
 
 public class ThreadCommunicationThreeThreads {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Mutex m = new Mutex();
+		Mutex1 m = new Mutex1();
 		
 		Thread t1 = new Thread(new TaskA(m), "thread1");
 		Thread t2 = new Thread(new TaskB(m), "thread2");
@@ -21,9 +21,9 @@ public class ThreadCommunicationThreeThreads {
 
 
 class TaskA implements Runnable{
-	Mutex m;
+	Mutex1 m;
 	
-	public TaskA(Mutex m){
+	public TaskA(Mutex1 m){
 		this.m = m ;
 	}
 	
@@ -44,9 +44,9 @@ class TaskA implements Runnable{
 }
 
 class TaskB implements Runnable{
-	Mutex m;
+	Mutex1 m;
 	
-	public TaskB(Mutex m){
+	public TaskB(Mutex1 m){
 		this.m = m ;
 	}
 	
@@ -69,9 +69,9 @@ class TaskB implements Runnable{
 }
 
 class TaskC implements Runnable{
-	Mutex m ;
+	Mutex1 m ;
 	
-	public TaskC(Mutex m ){
+	public TaskC(Mutex1 m ){
 		this.m = m ;
 	}
 	
@@ -92,6 +92,6 @@ class TaskC implements Runnable{
 	}
 }
 
-class Mutex{
+class Mutex1{
 	public boolean a,b,c  = false ;
 }

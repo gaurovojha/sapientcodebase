@@ -3,11 +3,11 @@ package practice.sapient.practice.usecase.carparking;
 import java.util.List;
 import java.util.Map;
 
-import practice.sapient.usecase.carparking.service.ChargeVehicleService;
-import practice.sapient.usecase.carparking.service.ParkVehicleService;
+import practice.sapient.practice.usecase.carparking.service.ChargeVehicleService;
+import practice.sapient.practice.usecase.carparking.service.ParkVehicleService;
 
 public class ParkingLot {
-
+	
 	private ChargeVehicleService chargeVehicleService;
 	private ParkVehicleService parkingVehicleService;
 	
